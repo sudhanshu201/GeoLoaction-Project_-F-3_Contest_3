@@ -1,0 +1,28 @@
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 20%;
+    cursor: pointer;
+    margin-left: 25%;
+    margin-top: 5%;
+    text-shadow: 1px 1px #555;
+    box-shadow: 2px 2px 2px #888;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+    box-shadow: none;
+    text-shadow: none;
+    transform: translateY(1px);
+  }
+  
+  button:active {
+    background-color: #1f5c1a;
+    box-shadow: none;
+    text-shadow: none;
+    transform: translateY(2px);
+  }
+  
